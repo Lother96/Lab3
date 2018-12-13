@@ -1,0 +1,119 @@
+img#info{
+width:100%;
+}
+img#banerkon{
+width:1100px;
+height:400px; 
+margin-bottom: 10px;
+}
+img#miejsce{
+width:450px;
+height: 520px;
+}
+div.container{
+background-image: linear-gradient(to right, white,#bcbcbc,white); 
+}
+iframe#mapa{
+width: 1100px; 
+height: 400px; 
+}
+/*PRZYCISK*/
+input#dodajpost{
+padding: 9px 12px!important;
+    display: inline-block;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    background-color: #747474;
+    color: White;
+    text-decoration: none;
+		margin-bottom: 10px;
+}
+input#dodajpost:hover {
+padding: 9px 12px!important;
+    display: inline-block;
+    border: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    width: auto;
+    background-color: black;
+    color: White;
+    text-decoration: none;
+}
+img#banerkon{
+margin: 10 0 10 0;
+}
+img#zespol{
+width: 90%;
+}
+div#zespol{
+text-align: center;
+}
+h5#zespol{
+text-align: center;
+}
+img#baner{
+width: 100%;
+}
+p#stopka{
+	text-align: center;
+	width: 1110px;
+	height: 28px;
+}
+@media screen and (max-width: 768px) {
+ iframe#mapa{
+		width: 100%;
+		height: 100%;
+ }
+ img#banerkon{
+		width:100%;
+		height:100%; 
+		margin-bottom: 5px;
+}
+	img#miejsce{
+		width:100%;
+		height: 100%;
+}
+	textarea#tresc{
+	width: 100%;
+	height: 100%;
+	}
+	img#logo{
+	width: 100%;
+	height: 100%;
+	}
+	p#stopka{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+}
+@media screen and (max-width: 1000px) {
+ iframe#mapa{
+ width: 100%;
+ height: 100%;
+ }
+ img#banerkon{
+		width:100%;
+		height:100%; 
+		margin-bottom: 5px;
+}
+	img#miejsce{
+		width:100%;
+		height: 100%;
+}
+	textarea#tresc{
+	width: 100%;
+	height: 100%;
+	}
+	img#logo{
+	width: 100%;
+	height: 100%;
+}
+		p#stopka{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+}
